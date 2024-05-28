@@ -1,27 +1,57 @@
 
 #fhead{
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
     margin-left: 45%;
 }
 form{
     margin-left: 40%;
+    font-size: 2em;
 }
 #email{
     margin: 1em;
+    border: 0.1em solid black;
+    border-radius: 2em;
 }
 #number{
     margin: 1em;
+    border: 0.1em solid black;
+    border-radius: 2em;
 
+}
+#name{
+    margin: 1em;
+    border: 0.1em solid black;
+    border-radius: 2em;
 }
 #integer{
     margin: 1em;
+    border: 0.1em solid black;
+    border-radius: 2em;
 }
 #send{
     margin: 1em;
     background-color: red;
     border: solid 0.1em red;
     border-radius: 2em;
-    width: 4em;
+    width: 5em;
     height: 2em;
+    color: white;
+}
+#send:hover{
+    scale: 0.9;
+    transition-duration: 1s;
+}
+#lname{
+    font-size: 1em;
+    font-weight: 400;
+}
+#lnumber{
+    font-size: 1em;
+    font-weight: 400;
+
+}
+#lemail{
+    font-size: 1em;
+    font-weight: 400;
 }

@@ -12,6 +12,7 @@ import Cardhover from './components/Cardhover';
 import Trust from './components/Trust';
 import Form from './components/Form';
 import Outlet from './components/Outlet';
+import Login from './components/Login';
 
 
 
@@ -24,11 +25,13 @@ function App() {
       <Home/>
       <Trust/>
       <Form/>
+      <Login/>
       <Testimonials/>
       <Outlet/>
       <Solution/>
       <Pos/>
       <Map/>
+
       <Cardhover/>
       <Footer/>
      
