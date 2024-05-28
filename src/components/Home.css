@@ -28,7 +28,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 #nr{
-    background-color: rgb(72, 54, 54);
+    background-color: rgba(202, 51, 17, 0.688);
     width: 20vw;
     border: solid black 0.1em;
     border-radius: 1em;
@@ -71,7 +71,7 @@
     transition-duration: 3s;
 }
 #nr:hover{
-    scale: 1.2;
+    background-color: rgba(63, 11, 11, 0.589);
     transition-duration: 3s;
 }
 p{

@@ -8,10 +8,11 @@ import Map from './components/map';
 import Pos from './components/Pos';
 import Solution from './components/Solution';
 import Welcome from './components/Welcome';
-import Section from './components/Section';
 import Cardhover from './components/Cardhover';
 import Trust from './components/Trust';
 import Form from './components/Form';
+import Outlet from './components/Outlet';
+
 
 
 
@@ -22,14 +23,15 @@ function App() {
       <Welcome/>
       <Home/>
       <Trust/>
-      <Section/>
+      <Form/>
       <Testimonials/>
+      <Outlet/>
       <Solution/>
       <Pos/>
       <Map/>
       <Cardhover/>
       <Footer/>
-     <Form/>
+     
       
       
     </div>

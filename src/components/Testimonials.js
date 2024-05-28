@@ -4,7 +4,7 @@ import test1 from '../assests/test1.png'
 import test2 from '../assests/test2.webp'
 const Testimonials = () => {
   return (
-    <>
+    <><div id='testt'> 
     <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -30,6 +30,7 @@ const Testimonials = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
 </div>
     </>
   )

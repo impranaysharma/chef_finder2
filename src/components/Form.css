@@ -1,0 +1,27 @@
+
+#fhead{
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 45%;
+}
+form{
+    margin-left: 40%;
+}
+#email{
+    margin: 1em;
+}
+#number{
+    margin: 1em;
+
+}
+#integer{
+    margin: 1em;
+}
+#send{
+    margin: 1em;
+    background-color: red;
+    border: solid 0.1em red;
+    border-radius: 2em;
+    width: 4em;
+    height: 2em;
+}

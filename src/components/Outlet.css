@@ -1,0 +1,24 @@
+.outlet{
+    background-color: red;
+    margin-top: 4em;
+}
+#ot{
+    height: 30em;
+    width: 90em;
+}
+#ot1{
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+}
+#ot2{
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+}
+#ot3{
+    text-align: center;
+    width: 100%;
+
+}
