@@ -14,6 +14,8 @@ const Form = () => {
     <input name="Name" type="text" placeholder="Name" required id='name'/><br/>
     <label id='lnumber'> Number : </label>
     <input name='Integer' type='integer' placeholder='Number' required id='integer'/><br/>
+    <label id='lnumber2'> Are you a Chef or Employeer: </label>
+    <input name='Type' type='integer' placeholder='Chef / Employeer' required id='type'/><br/>
     <button  type="submit" id='send'>Submit</button>
   </form>
   

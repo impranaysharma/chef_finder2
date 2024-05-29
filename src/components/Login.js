@@ -2,7 +2,7 @@ import React from 'react'
 import './Login.css'
 const Login = () => {
   return (
-    <div><div class="whole">
+    <div><div class="whole" id='login'>
 	<div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true" class="input"/>
 

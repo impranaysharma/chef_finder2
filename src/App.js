@@ -1,44 +1,27 @@
 
 import './App.css';
-import Home from './components/Home';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from './Pages/Landing'
 import Navbar from './components/Navbar';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
-import Map from './components/map';
-import Pos from './components/Pos';
-import Solution from './components/Solution';
-import Welcome from './components/Welcome';
-import Cardhover from './components/Cardhover';
-import Trust from './components/Trust';
-import Form from './components/Form';
-import Outlet from './components/Outlet';
-import Login from './components/Login';
+  import Login from './Pages/Login';
 
 
-
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Welcome/>
-      <Home/>
-      <Trust/>
-      <Form/>
-      <Login/>
-      <Testimonials/>
-      <Outlet/>
-      <Solution/>
-      <Pos/>
-      <Map/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing/>}>
+          
 
-      <Cardhover/>
-      <Footer/>
-     
-      
-      
-    </div>
+          <Route path="login" element={<Login/>} />
+          <Route path="contact" element={""} />
+          <Route path="*" element={""} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
