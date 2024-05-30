@@ -1,9 +1,9 @@
 import React from 'react'
 import './Form.css'
 const Form = () => {
-  return (<>
+  return (<><div id='wh'>
     <div id='fhead'> Join Us</div>
-    <form 
+    <form id='fwork'
     method="POST" 
     action="https://script.google.com/macros/s/AKfycbwgwRUxxL-pG8Knas8UGSi-5tr5hoORkChd-WF-ot8q2lsKNM2bIZwr2PRr0cXwizJqaw/exec"
   >
@@ -14,11 +14,22 @@ const Form = () => {
     <input name="Name" type="text" placeholder="Name" required id='name'/><br/>
     <label id='lnumber'> Number : </label>
     <input name='Integer' type='integer' placeholder='Number' required id='integer'/><br/>
-    <label id='lnumber2'> Are you a Chef or Employeer: </label>
-    <input name='Type' type='integer' placeholder='Chef / Employeer' required id='type'/><br/>
+    <div>
+      <input type="radio" id="contactChoice1" name="contact" value="chef" />
+      <label for="contactChoice1">Chef</label>
+
+      <input type="radio" id="contactChoice2" name="contact" value="employee" />
+      <label for="contactChoice2">Employee</label>
+
+    </div>
+    <label id='lnumber4'> Email Id of Referral: </label>
+    <input name="Referral" type="text" placeholder="Refferal Email" id='name'/><br/>
+    
+    <div>
+    </div>
     <button  type="submit" id='send'>Submit</button>
   </form>
-  
+  </div>
   </>
   )
 }

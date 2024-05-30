@@ -13,6 +13,9 @@ import Trust from '../components/Trust';
 import Form from '../components/Form';
 import Outlet from '../components/Outlet';
 import Login from '../components/Login';
+import Profile from './Profile';
+
+
 
 
 
@@ -20,7 +23,8 @@ import Login from '../components/Login';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      
+      
       <Welcome/>
       <Home/>
       <Trust/>

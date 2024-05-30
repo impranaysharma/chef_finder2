@@ -2,7 +2,6 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBIcon,
   MDBInput,
   MDBCol,
   MDBRow,
@@ -15,7 +14,8 @@ export default function Footer() {
     <MDBFooter className='text-center' color='white' bgColor='dark'>
       <MDBContainer className='p-4'>
         <section className=''>
-          <form action=''>
+          <form method="POST" 
+    action="https://script.google.com/macros/s/AKfycbwgwRUxxL-pG8Knas8UGSi-5tr5hoORkChd-WF-ot8q2lsKNM2bIZwr2PRr0cXwizJqaw/exec">
             <MDBRow className='d-flex justify-content-center'>
               <MDBCol size="auto">
                 <p className='pt-2'>
@@ -24,7 +24,7 @@ export default function Footer() {
               </MDBCol>
 
               <MDBCol md='5' start>
-                <MDBInput contrast type='email' label='Email address' className='mb-4' />
+                <MDBInput contrast type='email' label='Email address' className='mb-4' name='signup'/>
               </MDBCol>
 
               <MDBCol size="auto">

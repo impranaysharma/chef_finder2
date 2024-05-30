@@ -6,17 +6,18 @@ import Landing from './Pages/Landing'
 import Navbar from './components/Navbar';
   import Login from './Pages/Login';
 import Profile from './Pages/Profile'
+import AfterLogin from './Pages/AfterLogin';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing/>}>
-          
+        <Route path="/" element={<Navbar/>}>
+        <Route path="chef_finder" element={<Landing/>}/>
         <Route path="profile" element={<Profile/>} />
-          <Route path="login" element={<Login/>} />
-          <Route path="contact" element={""} />
-          <Route path="*" element={""} />
+        <Route path="login" element={<Login/>} />
+        <Route path="afterlogin" element={<AfterLogin/>} />
+        <Route path="*" element={""} />
         </Route>
       </Routes>
     </BrowserRouter>
