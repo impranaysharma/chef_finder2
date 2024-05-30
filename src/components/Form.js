@@ -22,8 +22,8 @@ const Form = () => {
       <label for="contactChoice2">Employee</label>
 
     </div>
-    <label id='lnumber4'> Email Id of Referral: </label>
-    <input name="Referral" type="text" placeholder="Refferal Email" id='name'/><br/>
+    <label id='lnumber4'> Number of Referral: </label>
+    <input name="Referral" type="text" placeholder="Refferal Phone Number" id='name'/><br/>
     
     <div>
     </div>

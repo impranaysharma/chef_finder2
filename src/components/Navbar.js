@@ -2,7 +2,7 @@ import React from 'react'
 import "./Navbar.css"
 import { Outlet, Link } from "react-router-dom";
 import Auth from './Auth';
-
+import phone from '../assests/phone.png'
 const Navbar = () => {
   return (
     <>
@@ -18,7 +18,9 @@ const Navbar = () => {
       
         </div>
     </nav>
+    <div id='sticky'><img src={phone} id='phone'/>9737826874</div>
     <Outlet/>
+
     </>
   )
 }
