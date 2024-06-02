@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/chef_finder2/static/css/main.f239b638.css",
-    "main.js": "/chef_finder2/static/js/main.e123c2de.js",
-    "static/js/453.7ba53a11.chunk.js": "/chef_finder2/static/js/453.7ba53a11.chunk.js",
-    "static/media/solgif.gif": "/chef_finder2/static/media/solgif.3a4c84afaad0ad14d43c.gif",
-    "static/media/outlet.png": "/chef_finder2/static/media/outlet.e5502d84f91714dd204a.png",
-    "static/media/favicon.ico": "/chef_finder2/static/media/favicon.50ac97c8c6ac338f6d7c.ico",
-    "static/media/backres3.jpeg": "/chef_finder2/static/media/backres3.52bf52b7bee5a08ca620.jpeg",
-    "static/media/main2.png": "/chef_finder2/static/media/main2.5a4e4213a258c45dd845.png",
-    "static/media/main.jpg": "/chef_finder2/static/media/main.492a51f395d6341be7c5.jpg",
-    "static/media/trust2.png": "/chef_finder2/static/media/trust2.40d76252c3905bf0c359.png",
-    "static/media/test1.png": "/chef_finder2/static/media/test1.f33d34c272a493879819.png",
-    "static/media/phone.png": "/chef_finder2/static/media/phone.478354bc7d9b1d0facdd.png",
-    "static/media/test2.webp": "/chef_finder2/static/media/test2.4ee2c1edce71c5a70063.webp",
-    "static/media/pos4.webp": "/chef_finder2/static/media/pos4.783cf2c7f260f8efa987.webp",
-    "static/media/pos2.webp": "/chef_finder2/static/media/pos2.3ffdbf650998a69eae11.webp",
-    "static/media/pos1.webp": "/chef_finder2/static/media/pos1.0eff425103349252ce00.webp",
-    "static/media/pos3.webp": "/chef_finder2/static/media/pos3.b66294cf5fb8dedb1a37.webp",
-    "index.html": "/chef_finder2/index.html",
-    "main.f239b638.css.map": "/chef_finder2/static/css/main.f239b638.css.map",
-    "main.e123c2de.js.map": "/chef_finder2/static/js/main.e123c2de.js.map",
-    "453.7ba53a11.chunk.js.map": "/chef_finder2/static/js/453.7ba53a11.chunk.js.map"
+    "main.css": "/chef_finder/static/css/main.aaf1e5de.css",
+    "main.js": "/chef_finder/static/js/main.bec2dc5f.js",
+    "static/js/453.7ba53a11.chunk.js": "/chef_finder/static/js/453.7ba53a11.chunk.js",
+    "static/media/solgif.gif": "/chef_finder/static/media/solgif.3a4c84afaad0ad14d43c.gif",
+    "static/media/outlet.png": "/chef_finder/static/media/outlet.e5502d84f91714dd204a.png",
+    "static/media/favicon.ico": "/chef_finder/static/media/favicon.50ac97c8c6ac338f6d7c.ico",
+    "static/media/backres3.jpeg": "/chef_finder/static/media/backres3.52bf52b7bee5a08ca620.jpeg",
+    "static/media/main2.png": "/chef_finder/static/media/main2.5a4e4213a258c45dd845.png",
+    "static/media/main.jpg": "/chef_finder/static/media/main.492a51f395d6341be7c5.jpg",
+    "static/media/trust2.png": "/chef_finder/static/media/trust2.40d76252c3905bf0c359.png",
+    "static/media/test1.png": "/chef_finder/static/media/test1.f33d34c272a493879819.png",
+    "static/media/phone.png": "/chef_finder/static/media/phone.478354bc7d9b1d0facdd.png",
+    "static/media/test2.webp": "/chef_finder/static/media/test2.4ee2c1edce71c5a70063.webp",
+    "static/media/pos4.webp": "/chef_finder/static/media/pos4.783cf2c7f260f8efa987.webp",
+    "static/media/pos2.webp": "/chef_finder/static/media/pos2.3ffdbf650998a69eae11.webp",
+    "static/media/pos1.webp": "/chef_finder/static/media/pos1.0eff425103349252ce00.webp",
+    "static/media/pos3.webp": "/chef_finder/static/media/pos3.b66294cf5fb8dedb1a37.webp",
+    "index.html": "/chef_finder/index.html",
+    "main.aaf1e5de.css.map": "/chef_finder/static/css/main.aaf1e5de.css.map",
+    "main.bec2dc5f.js.map": "/chef_finder/static/js/main.bec2dc5f.js.map",
+    "453.7ba53a11.chunk.js.map": "/chef_finder/static/js/453.7ba53a11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f239b638.css",
-    "static/js/main.e123c2de.js"
+    "static/css/main.aaf1e5de.css",
+    "static/js/main.bec2dc5f.js"
   ]
 }
