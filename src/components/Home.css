@@ -21,14 +21,14 @@
     font-weight: 800;
 }
 #nl{
-    background-color: rgba(202, 51, 17, 0.688);
+    background-color: rgba(229, 56, 18, 0.884);
     width: 20vw;
     border: solid rgb(57, 26, 63) 0.1em;
     border-radius: 1em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 #nr{
-    background-color: rgba(202, 51, 17, 0.688);
+    background-color: rgba(227, 61, 24, 0.919);
     width: 20vw;
     border: solid black 0.1em;
     border-radius: 1em;
@@ -46,7 +46,7 @@
 
 }
 #mide{
-    background-color: white;
+  
     height: 27em;
     border: solid 0.2em balck;
     width: 100%;
@@ -54,7 +54,12 @@
     
     
 }
+#backres{
+   
+}
 #l1h{
+    position: relative;
+left: 6em;
     font-size: 3em;
 }
 #mide:hover{
@@ -78,5 +83,5 @@ p{
     margin-top: -2em;
 }
 .right{
-    margin-left: -1em;
+    margin-left: 25em;
 }

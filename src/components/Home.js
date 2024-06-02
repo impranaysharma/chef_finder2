@@ -5,16 +5,16 @@ import CountUp from 'react-countup';
 import { motion } from "framer-motion";
 import Flip from './Flip';
 import { MDBRipple } from 'mdb-react-ui-kit';
-
+import "./Welcome.css"
 
 const Home = () => {
   return (
-    <>
-    
+    <><div id='backres'>
+    <h1 id='glow'>Welcome to Chef Finder</h1>
     <div id='mide'><div className='hero '>
         <div className="left">
                 <h1 id='l1h'>Cooking Staff</h1><br/>
-                <p>Treat Your Palate to Mouthwatering Delights Cooked by Our Proficient Cooking Maids. Delight in Gourmet Delicacies Served Straight to Your Dinner Table.</p>
+                <p></p>
         </div>
         <div className="right">
           <Flip/>
@@ -33,6 +33,7 @@ const Home = () => {
         <div id='ct1'><CountUp duration={7} end={478} />+</div>
 
         </div>
+    </div>
     </div>
     </div>
     </>

@@ -2,7 +2,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,9 +9,10 @@ body {
   }
   #glow {width: 100%;
     text-align: center;
-    color: hsl(0, 0%, 28%);
+  color: red;
+  text-shadow: 3em;
     font-size: 50px!important;
-    font-weight: bold!important;
+    font-weight: 700!important;
     font-family: monospace;
     letter-spacing: 7px!important;
     cursor: pointer;
@@ -20,12 +20,14 @@ body {
     height: 2em;
   }
   
-  h1 {
-    padding: 64px;
-    background: linear-gradient(to right, hsl(0, 76%, 41%) 0, hsl(228, 87%, 46%) 10%, hsla(300, 2%, 11%, 0.615) 20%);
+h1 {
+
+  padding: 64px;
+    background: linear-gradient(to right, hsl(250, 80%, 54%) 0, hsl(19, 69%, 41%) 5%, white 30%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
+    color: red
   }
   
   @keyframes shine {

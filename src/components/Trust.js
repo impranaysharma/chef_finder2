@@ -1,5 +1,5 @@
 import React from 'react'
-import trust from "../assests/trust.jpg"
+import trust from "../assests/trust2.png"
 import "./Trust.css"
 const Trust = () => {
   return (

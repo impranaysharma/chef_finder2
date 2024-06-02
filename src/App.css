@@ -7,6 +7,25 @@ body{
   height: 100%;
   margin: 2px;
   padding: 5px;
-  background-color: white;
   overflow-x: hidden;
+  background-image: url("./assests/backres3.jpeg"); 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+
+}
+@media only screen and (max-width: 450 px){
+nav{
+  overflow: hidden;
+  position: relative;
+  display: none;
+
+}
+#glow
+{
+  width: 10em;
+}
+
 }

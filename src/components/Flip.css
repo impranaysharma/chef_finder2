@@ -2,7 +2,7 @@
     background-color: transparent;
     width: 300px;
     height: 200px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -33,11 +33,11 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-box-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
     margin-left: -8em;
     margin-top: em;
-    border: solid white 0.1em;
+    border: solid transparent 0.1em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
   }

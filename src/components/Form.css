@@ -3,7 +3,11 @@
     background-color: burlywood;
     border: 0.1em solid white;
     border-radius: 2em;
-    margin: 7em;
+    margin: 10em;
+}
+#wh:hover{
+    scale: 1.1;
+    transition-duration: 3s;
 }
 #fhead{
     font-size: 3.5em;

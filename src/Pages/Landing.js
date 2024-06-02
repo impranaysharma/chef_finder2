@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Map from '../components/map';
 import Pos from '../components/Pos';
 import Solution from '../components/Solution';
-import Welcome from '../components/Welcome';
+
 import Cardhover from '../components/Cardhover';
 import Trust from '../components/Trust';
 import Form from '../components/Form';
@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       
     
-      <Welcome/>
+      
       <Home/>
       <Trust/>
       <Form/>

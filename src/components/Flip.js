@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assests/favicon.ico"
-import cook from "../assests/main.jpg"
+import cook from "../assests/main2.png"
 import "./Flip.css"
 const Flip = () => {
   return (
