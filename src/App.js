@@ -12,8 +12,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar/>}>
-        <Route path="chef_finder" element={<Landing/>}/>
+        <Route path="/" element={<Landing/>}>
+        <Route path="chef_finder" element={}/>
         <Route path="profile" element={<Profile/>} />
         <Route path="login" element={<Login/>} />
         <Route path="afterlogin" element={<AfterLogin/>} />
